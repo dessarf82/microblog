@@ -1,0 +1,252 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-01-26 19:28+0300\n"
+"PO-Revision-Date: 2019-01-26 20:13+0300\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: __init__.py:22
+msgid "Please log in to access this page."
+msgstr "Пожалуйста, войдите, чтобы получить доступ к этой странице."
+
+#: email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Сброс пароля"
+
+#: forms.py:9 forms.py:16 forms.py:46
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: forms.py:10 forms.py:18 forms.py:39
+msgid "Password"
+msgstr "Пароль"
+
+#: forms.py:11
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: forms.py:12 routes.py:48 templates/login.html:5
+msgid "Sign In"
+msgstr "Войти в систему"
+
+#: forms.py:17 forms.py:34
+msgid "Email"
+msgstr "Электронная почта"
+
+#: forms.py:19 forms.py:41
+msgid "Repeat Password"
+msgstr "Повторите пароль"
+
+#: forms.py:20 routes.py:63 templates/register.html:5
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: forms.py:25
+msgid "Please use different username."
+msgstr "Пожалуйста используйте другое имя пользователя."
+
+#: forms.py:30
+msgid "Please use different email address."
+msgstr "Пожалуйста используйте другой адрес электронной почты."
+
+#: forms.py:35 forms.py:42
+msgid "Request Password Reset"
+msgstr "Запросить Сброс пароля"
+
+#: forms.py:47
+msgid "About me"
+msgstr "Обо мне"
+
+#: forms.py:48 forms.py:63
+msgid "Submit"
+msgstr "Отправить"
+
+#: forms.py:58
+msgid "Please use a different username."
+msgstr "Пожалуйста используйте другое имя пользователя."
+
+#: forms.py:62
+msgid "Say something"
+msgstr "Скажите что-нибудь"
+
+#: routes.py:21
+msgid "Your post is now live!"
+msgstr "Ваша запись опубликована успешно!"
+
+#: routes.py:29 templates/base.html:22
+msgid "Home"
+msgstr "Домой"
+
+#: routes.py:41
+msgid "Invalid username or password"
+msgstr "Неверное имя пользователя или пароль"
+
+#: routes.py:61
+msgid "Congratulations, you are now a registered user!"
+msgstr "Поздравляем, теперь вы - зарегистрированный пользователь!"
+
+#: routes.py:75
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+"Проверьте вашу электронную почту на предмет сообщения с инструкциями по "
+"сбросу пароля."
+
+#: routes.py:77 templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Сброс Пароля"
+
+#: routes.py:91
+msgid "Your password has been reset."
+msgstr "Ваш пароль был сброшен."
+
+#: routes.py:117
+msgid "Your changes have been saved."
+msgstr "Ваши изменения сохранены."
+
+#: routes.py:122 templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Редактировать Профиль"
+
+#: routes.py:130 routes.py:146
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Пользователь %(username)s не найден."
+
+#: routes.py:133
+msgid "You cannot follow yourself!"
+msgstr "Вы не можете подписаться на самого себя!"
+
+#: routes.py:137
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Вы подписались на %(username)s!"
+
+#: routes.py:149
+msgid "You cannot unfollow yourself!"
+msgstr "Вы не можете отписаться от самого себя!"
+
+#: routes.py:153
+#, python-format
+msgid "You are not following %(username)s!"
+msgstr "Вы отписались от %(username)s!"
+
+#: routes.py:166 templates/base.html:23
+msgid "Explore"
+msgstr "Осмотритесь"
+
+#: templates/404.html:4
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: templates/404.html:5 templates/500.html:6
+msgid "Back"
+msgstr "Назад"
+
+#: templates/500.html:4
+msgid "An unexpected error has occured"
+msgstr "Произошла неожиданная ошибка."
+
+#: templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+"Администратор был уведомлен. Приносим извинения за причиненные "
+"неудобства!"
+
+#: templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s сказал %(when)s"
+
+#: templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Добро пожаловать в Microblog"
+
+#: templates/base.html:27
+msgid "Login"
+msgstr "Вход в систему"
+
+#: templates/base.html:29
+msgid "Profile"
+msgstr "Профиль"
+
+#: templates/base.html:30
+msgid "Logout"
+msgstr "Выход из системы"
+
+#: templates/index.html:6
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Привет, %(username)s!"
+
+#: templates/index.html:18 templates/user.html:31
+msgid "Newer posts"
+msgstr "К новым записям"
+
+#: templates/index.html:23 templates/user.html:36
+msgid "Older posts"
+msgstr "К старым записям"
+
+#: templates/login.html:12
+msgid "New User?"
+msgstr "Новый пользователь?"
+
+#: templates/login.html:12
+msgid "Click to Register!"
+msgstr "Нажмите, чтобы зарегистрироваться!"
+
+#: templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Забыли пароль?"
+
+#: templates/login.html:15
+msgid "Click to Reset It"
+msgstr "Нажмите, чтобы сбросить его"
+
+#: templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Сброс вашего пароля"
+
+#: templates/user.html:8
+msgid "User"
+msgstr "Пользователь"
+
+#: templates/user.html:11
+msgid "Last seen on"
+msgstr "Последняя активность"
+
+#: templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d подписчиков"
+
+#: templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d отслеживаются"
+
+#: templates/user.html:15
+msgid "Edit your profile"
+msgstr "Редактировать ваш профиль"
+
+#: templates/user.html:17
+msgid "Follow"
+msgstr "Подписаться"
+
+#: templates/user.html:19
+msgid "Unfollow"
+msgstr "Отписаться"
