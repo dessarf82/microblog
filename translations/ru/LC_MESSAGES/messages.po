@@ -164,7 +164,7 @@ msgstr "Произошла неожиданная ошибка."
 #: templates/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr ""
-"Администратор был уведомлен. Приносим извинения за причиненные "
+"Администрация была уведомлена. Приносим извинения за причиненные "
 "неудобства!"
 
 #: templates/_post.html:14
