@@ -38,7 +38,8 @@ nosetests.xml
 # Idea
 .idea
 
+# Project
 venv
-app.db
+app.db*
 microblog.log*
 messages.pot
